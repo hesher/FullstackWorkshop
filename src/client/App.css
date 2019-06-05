@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(25, 25, 50);
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

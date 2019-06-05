@@ -1,0 +1,27 @@
+.Todos_container {
+  display: flex;
+
+  flex-direction: column;
+
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.Todos_add_input {
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Todos_add_button {
+  height: 30px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 10px;
+}

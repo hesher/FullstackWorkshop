@@ -1,0 +1,19 @@
+.Todos_Action_button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    flex-shrink: 0;
+    width: 50px;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .Todos_Action_button:hover:not(:disabled) {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .Todos_Action_button:disabled {
+    background-color: rgb(80, 80, 80);
+  }
