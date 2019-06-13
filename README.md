@@ -25,7 +25,7 @@ yarn
 ```
 - Run `yarn dev`
 
-### Read and Write Todos from disk
+### Task1: Read and Write Todos from disk
 
 Currently, the state of Todos is reset every time you refresh the browser. The reason for that is that the state is stored in memory.
 
@@ -33,12 +33,12 @@ Obviously, that's not good enough for a real Todos app.
 As a first iteration on improvement, we are going to use a server to store our Todos on the hard disk.
 
 Later on, you can easily switch to cloud api to store the state on a remote server and use it from any client.
-### Implement Duplicate
+### Task2: Implement Duplicate
 
 - Use `<TodoButton>` to implement a button that duplicates a todo
 - Look at examples in `Todos.js` (`onComplete` and `onDelete`) and `Todo.js`
 
-### Implement "Add Todo"
+### Task3: Implement "Add Todo"
 
 You should implement a "Add" button - It should allow typing the label for the new todo and adding it as a new todo
 
@@ -47,4 +47,4 @@ You should implement a "Add" button - It should allow typing the label for the n
 - Which state does this feature require?
 - Implement it
 - **Bonus** - Refactor this functionality as a new component. Think about what is the API/Properties this component should have? (It's not the same as state)
-### (BONUS) Implement Move Down and Move Up buttons
+### Bonus Task Implement Move Down and Move Up buttons
