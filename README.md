@@ -30,9 +30,10 @@ yarn
 Currently, the state of Todos is reset every time you refresh the browser. The reason for that is that the state is stored in memory.
 
 Obviously, that's not good enough for a real Todos app.
-As a first iteration on improvement, we are going to use a server to store our Todos on the hard disk.
+As a first iteration on improvement, we are going to use a server to store our Todos on the hard disk, in a file.
 
-Later on, you can easily switch to cloud api to store the state on a remote server and use it from any client.
+To complete this this, follow through the instructions in the Todos (when you run `yarn dev`)
+
 ### Task2: Implement Duplicate
 
 - Use `<TodoButton>` to implement a button that duplicates a todo
