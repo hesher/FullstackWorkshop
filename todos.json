@@ -1,0 +1,16 @@
+{
+    "todos": [
+        {
+            "label": "Go back to server/index.js"
+        },
+        {
+            "label": "in app.post"
+        },
+        {
+            "label": "Uncomment the code in the callback"
+        },
+        {
+            "label": "You will now be able to add and remove todos"
+        }
+    ]
+}
