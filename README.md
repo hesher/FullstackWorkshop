@@ -13,7 +13,7 @@ Then continue with the instructions there.
 ### Installation
 
 ```
-git clone git@github.com:{your_profile_name}/FullstackWorkshop.git
+git clone https://github.com/{your_profile_name}/FullstackWorkshop.git
 cd FullstackWorkshop
 yarn
 ```
