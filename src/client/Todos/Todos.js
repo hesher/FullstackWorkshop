@@ -2,20 +2,18 @@ import React, { useState } from "react";
 import AddTodos from "./AddTodos";
 import Todo from "../Todo/Todo";
 import "./Todos.css";
+// import useTodos from './useTodos'
 
 export default function Todos() {
   // Replace useState with useTodos
   // remove parameter (useTodos doesn't take a parameter)
-  // import useTodos from './useTodos'
   const [todos, setTodos] = useState([
     { label: "Go to Todos.js" },
-    { label: "Remove the useState code" },
-    { label: "Replace it with useTodos" },
-    { label: "Import useTodos from './useTodos'" },
+    { label: "Replace useState with useTodos" },
+    { label: "remove anything passed into useTotos" },
+    { label: "Uncomment the 'import' statement" },
     { label: "Refresh the browser" }
   ]);
-
-
 
   if (todos !== null) {
     return (
